@@ -1,0 +1,53 @@
+
+.ani-cloud {
+    position: absolute;
+    z-index: -2;
+}
+
+.ani-cloud1 {
+    opacity: 0.3;
+    -webkit-animation: move 60s linear infinite;
+    animation: move 60s linear infinite;
+}
+.ani-cloud2 {
+    opacity: 0.3;
+    -webkit-animation: move 75s linear infinite;
+    animation: move 75s linear infinite;
+}
+.ani-cloud3 {
+    opacity: 0.3;
+    -webkit-animation: move 70s linear infinite;
+    animation: move 75s linear infinite;
+}
+.ani-cloud4 {
+    opacity: 0.3;
+    -webkit-animation: move 65s linear infinite;
+    animation: move 75s linear infinite;
+}
+.ani-cloud5 {
+    opacity: 0.3;
+    -webkit-animation: move 50s linear infinite;
+    animation: move 75s linear infinite;
+}
+
+
+
+@-webkit-keyframes move {
+    0% {
+        transform: translateX(-1500px);
+    }
+
+    100% {
+        transform: translateX(1600px);
+    }
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(-1500px);
+    }
+
+    100% {
+        transform: translateX(1600px);
+    }
+}

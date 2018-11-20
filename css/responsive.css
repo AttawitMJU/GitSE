@@ -1,0 +1,48 @@
+@media screen and (max-width: 1330px) {
+
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .topnav.responsive {
+        position: fixed;
+    }
+
+    .topnav.responsive .icon {
+        position: fixed;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .column.contact {
+        width: 50%;
+    }
+
+    .column.photo {
+        width: 100%;
+    }
+
+    .cloud.cloudiot {
+        transform: translate(-50px, 500px);
+    }
+
+    .cloud.cloudnotice {
+        transform: translate(-250px, -150px);
+    }
+
+}

@@ -1,0 +1,40 @@
+.topnav {
+    overflow: hidden;
+    background-color: #00b0f0;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    border-bottom:solid #3b3838 5px;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #3b3838;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Mitr', sans-serif;
+    transition-duration: .75s;
+}
+
+.topnav a:hover {
+    background-color: #0080af;
+    color: white;
+    transform: scale(1.1);
+    transition-duration: .75s;
+}
+
+.active {
+    background-color: #76D9F9;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.navbar-register {
+    background-color: #40ccff;
+}
